@@ -1,0 +1,21 @@
+@charset "UTF-8";
+@use "common/import" as *;
+
+html {
+  * {
+      font-style: normal;
+  }
+}
+
+img {
+  width: 100%;
+}
+
+ul,
+li {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}

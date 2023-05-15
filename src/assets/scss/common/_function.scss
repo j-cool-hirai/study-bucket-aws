@@ -1,0 +1,31 @@
+@charset "UTF-8";
+@use "sass:math";
+
+// 共通の変数をここで定義
+// // オレンジ
+// $orange: #ff5900;
+// // 暗いオレンジ
+// $dark-orange: #ec652b;
+// // 黒
+// $black: #000000;
+// // 薄い黒
+// $light-black: #343d45;
+// // 白
+// $white: #ffffff;
+// // 灰色
+// $gray: #efefef;
+// // 薄い灰色
+// $light-gray: #e1e6e1;
+// // 濃い灰色
+// $dark-gray: #a2a9a8;
+
+// font
+// $font: "Hiragino Sans", "ヒラギノ角ゴシック", "MS ゴシック", "MS Pゴシック", "MS PGothic", sans-serif;
+// $font-hind: 'Hind', "Hiragino Sans", "ヒラギノ角ゴシック", "MS ゴシック", "MS Pゴシック", "MS PGothic", sans-serif;
+// $font-jost: "Jost", sans-serif;
+
+// px→rem 変換
+$baseFontSize: 16;
+@function rem($pixels) {
+  @return calc($pixels / $baseFontSize) * 1rem;
+}

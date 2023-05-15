@@ -1,0 +1,9 @@
+@charset "UTF-8";
+@use "common/import" as *;
+
+.top {
+    &-mv {
+        height: 100vh;
+        overflow: hidden;
+    }
+}
