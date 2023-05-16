@@ -1,6 +1,9 @@
 @charset "UTF-8";
 @use "common/import" as *;
 
+@use "header" as *;
+@use "top" as *;
+
 html {
   * {
       font-style: normal;
