@@ -13,21 +13,35 @@ SwiperCore.use([Navigation, Pagination, Autoplay, EffectFade]);
 function Header() {
   return (
     <>
-      <div className="header">
-        <header className="header-nav">
-            <ul>
-                <li>新着情報</li>
-                <li>営業日＆マップ</li>
-                <li>小史</li>
-            </ul>
+      <div className="p-header">
+        <div className="p-header-text">元祖ソースカツ丼</div>
+        <div className="p-header-logo"></div>
+        <header className="p-header-nav">
+          <ul className="p-header-nav__cont">
+            <li className="p-header-nav__cont-item">
+              <a href="#" className="p-header-nav__cont-item-link">
+                新着情報
+              </a>
+            </li>
+            <li className="p-header-nav__cont-item">
+              <a href="#" className="p-header-nav__cont-item-link">
+                営業日＆マップ
+              </a>
+            </li>
+            <li className="p-header-nav__cont-item">
+              <a href="#" className="p-header-nav__cont-item-link">
+                小史
+              </a>
+            </li>
+          </ul>
         </header>
-        <div className="header-mv">
+        <div className="p-header-mv">
+          <div className="p-header-mv__bg"></div>
           <Swiper
             autoplay={{ delay: 3000, disableOnInteraction: false }}
             loop={true}
             effect="fade"
             speed={2000}
-            containerClass="swiper-container"
             fadeEffect={{ crossFade: true }}
             simulateTouch={false}
           >
