@@ -1,5 +1,6 @@
 import React from "react";
 import topMv01 from "../assets/image/header/topMv01.jpg";
+import Logo from "../assets/image/header/yo-roppaken_logo.svg";
 import "swiper/swiper-bundle.css";
 import { Swiper, SwiperSlide } from "swiper/react";
 import SwiperCore, {
@@ -15,7 +16,9 @@ function Header() {
     <>
       <div className="p-header">
         <div className="p-header-text">元祖ソースカツ丼</div>
-        <div className="p-header-logo"></div>
+        <div className="p-header-logo">
+          <img src={Logo} alt="ヨーロッパ軒"></img>
+        </div>
         <header className="p-header-nav">
           <ul className="p-header-nav__cont">
             <li className="p-header-nav__cont-item">
