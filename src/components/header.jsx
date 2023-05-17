@@ -16,9 +16,9 @@ function Header() {
       <div className="header">
         <header className="header-nav">
             <ul>
-                <li>新着情報</li>
-                <li>営業日＆マップ</li>
-                <li>小史</li>
+                <li><a href="#">新着情報</a></li>
+                <li><a href="#">営業日＆マップ</a></li>
+                <li><a href="#">小史</a></li>
             </ul>
         </header>
         <div className="header-mv">
